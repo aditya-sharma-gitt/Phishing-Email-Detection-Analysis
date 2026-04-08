@@ -1,5 +1,3 @@
-# FUTURE_CS_02
-Phishing Email Detection and Awareness Project
 # Phishing Email Detection & Awareness Project
 
 ## Overview
@@ -30,3 +28,20 @@ All analyzed emails were classified as **High Risk – Phishing**.
 - Avoid clicking unknown links
 - Never share passwords or OTPs
 - Report suspicious emails to the security team
+
+## Analysis 1 — Suspicious URL
+
+### VirusTotal Result
+- 2/95 security vendors flagged as malicious
+- Low detection — possibly new phishing URL
+
+### URLScan Result
+- Hosted in China
+- Direct IP address used instead of domain — common phishing indicator
+- First time scanned on urlscan.io — newly created
+
+### Conclusion
+URL flagged as suspicious based on:
+- Direct IP usage instead of domain name
+- China hosted server
+- Low but present malicious detection on VirusTotal
